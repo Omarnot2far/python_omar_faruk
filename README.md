@@ -4,7 +4,7 @@ The course covers the use of Python libraries such as Pandas, NumPy and Matplotl
 
 # Week-1: 
 
-Introduction of
+# Learning Jupyter Notebook, Python concepts and Git & Github
 
 1: **Anaconda**: A platform of data science where all the tools are included. Learned about Installation.
 
