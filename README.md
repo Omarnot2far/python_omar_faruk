@@ -99,7 +99,7 @@ Built-in functions enable data manipulation, visualization and preprocessing. Ex
 - Duplicate
 
 ## Data Statistics 
-- Count: Number of data points for each feature (all 1599).
+- Count: Number of data points for each feature.
 - Mean: The average value for each feature.
 - Standard Deviation (std): It measures the variability or spread in the data.
 - Min: The minimum value observed for each feature.
