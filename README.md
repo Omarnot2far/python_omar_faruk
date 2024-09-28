@@ -78,3 +78,36 @@ This project demonstrates basic image processing techniques using NumPy and Open
 - image filtering and edge detection algorithms.
 - image segmentation and object detection.
 - computer vision tasks
+
+# week 3
+
+# Learning Panda
+Panda is a python library for data analysis and especially for working with large data sets. 
+Built-in functions enable data manipulation, visualization and preprocessing. Excellent tool for handling file formats such as .csv or XML
+
+## Data type
+
+- Nominal (Football player numbers, colors. No order and no clear difference between them, least informative)
+- Ordinal (Position in a race, rating of a movie. Can be ordered but no clear measurement of distance between them)
+- Range (pH, the clock. There is order and spacing between the values. The difference between two values ​​is important)
+- Quotient (Kelvin, number of children. Very similar range but with the addition of an absolute zero point)
+
+## Data Cleaning
+- Are there NaN values? (empty columns, rows)
+- Are there any major outliers? (do they seem reasonable?)
+- Are there the wrong data types in the wrong places? (among a column of integers there is, for example, a date)
+- Duplicate
+
+## Data Statistics 
+- Count: Number of data points for each feature.
+- Mean: The average value for each feature.
+- Standard Deviation (std): It measures the variability or spread in the data.
+- Min: The minimum value observed for each feature.
+- 25% (First Quartile): 25% of the data falls below this value.
+- 50% (Median): 50% of the data falls below this value.
+- 75% (Third Quartile): 75% of the data falls below this value.
+- Max: The maximum value observed for each feature.
+
+
+
+
