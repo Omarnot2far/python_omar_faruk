@@ -108,6 +108,33 @@ Built-in functions enable data manipulation, visualization and preprocessing. Ex
 - 75% (Third Quartile): 75% of the data falls below this value.
 - Max: The maximum value observed for each feature.
 
+## The 5-number summary
+
+It is a statistical tool for understanding data distribution and identifying outliers. It consists of five key values,
+
+1. the minimum (smallest data point),
+2. the first quartile 25% (Q1),
+3. the median 50% (Q2 or the second quartile),
+4. the third quartile 75% (Q3), and
+5. the maximum (largest data point).
+
+
+## To detect outliers
+
+we focus on the interquartile range (IQR)
+
+calculated as: 
+
+**IQR = Q3 - Q1** (This IQR represents the middle 50% of the data)
+
+Outliers are identified as values that fall significantly lower fence and higher fence.
+
+**Lower fence = Q1 - 1.5 * IQR**
+
+**Higher fence = Q3 + 1.5 * IQR**
+
+Essentially, the 5-number summary with IQR helps us pinpoint unusual data points that might deviate from the overall pattern and warrant closer investigation.
+
 
 
 
