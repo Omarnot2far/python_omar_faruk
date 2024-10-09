@@ -136,5 +136,55 @@ Outliers are identified as values that fall significantly lower fence and higher
 Essentially, the 5-number summary with IQR helps us pinpoint unusual data points that might deviate from the overall pattern and warrant closer investigation.
 
 
+# week 4
+
+# Learning Object-Oriented Programming (OOP) in Python
+
+Object-Oriented Programming (OOP) is a programming centered around the concept of objects. Objects are instances of classes that represent real-world entities with attributes (data) and behaviors (methods). OOP helps make your code more organized, modular, and reusable.
+
+# Why OOP?
+- Modularity: Organizes code into smaller, manageable sections.
+- Reusability: Encourages the reuse of code via inheritance and polymorphism.
+- Encapsulation: Hides complex details and exposes only necessary parts of the object.
+- Maintainability: Makes it easier to maintain and extend code over time.
+
+# The key concepts of Object-Oriented Programming (OOP) in Python: 
+
+- Classes and Objects
+- Attributes and Methods
+- The Constructor (__init__)
+- The self parameter
+- Encapsulation
+- Class and Static Methods
+- Inheritance
+
+# Classes and Objects
+A class is a blueprint for creating objects (instances). It defines attributes and methods that the objects will have.
+
+An object is an instance of a class. Think of a class as the blueprint for a car, and the object as an actual car built from that blueprint.
+
+# Attributes (Variables)
+Attributes are variables that store data related to the object. In OOP, we define attributes inside the class and they belong to the objects created from the class.
+
+# Methods
+Methods are functions defined inside a class. They describe behaviors or actions that objects of the class can perform.
+
+# The Constructor: __init__()
+The constructor is a special method called __init__() that is automatically executed when a new object is created. The constructor is used to initialize an object’s attributes.
+
+# The self Parameter
+The self parameter refers to the current instance of the class and is used to access instance attributes and methods.
+
+# Encapsulation (Public vs Private)
+Encapsulation is the process of restricting access to certain attributes or methods and exposing only what's necessary. In Python, attributes are public by default, but we can make them private using a double underscore (__).
+
+# Class and Static Methods
+There are two types of methods apart from instance methods:
+
+- Class Methods: Use the @classmethod decorator and take cls (the class) as their first argument.
+- Static Methods: Use the @staticmethod decorator and don’t require access to the class or object.
+
+# Inheritance
+Inheritance allows a class (child class) to inherit attributes and methods from another class (parent class), promoting code reuse.
 
 
