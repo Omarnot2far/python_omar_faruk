@@ -188,3 +188,6 @@ There are two types of methods apart from instance methods:
 Inheritance allows a class (child class) to inherit attributes and methods from another class (parent class), promoting code reuse.
 
 
+# week 5
+
+# Learning Ploting the Data useing Matplotlib Library
